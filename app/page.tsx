@@ -1,5 +1,4 @@
 import { lusitana } from "@/app/ui/fonts";
-import styles from "./ui/home.module.css";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -8,7 +7,7 @@ import AcmeLogo from "./ui/acme-logo";
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
-      <div className={styles.shape}>
+      <div className="bg-blue-500 p-6 rounded-lg">
         <AcmeLogo />
       </div>
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">

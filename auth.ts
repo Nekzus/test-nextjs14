@@ -1,5 +1,5 @@
 import type { User } from '@/app/lib/definitions';
-import { authConfig } from '@/auth.config';
+import { authConfig } from './auth.config';
 import { sql } from '@vercel/postgres';
 import bcrypt from 'bcrypt';
 import NextAuth from 'next-auth';
